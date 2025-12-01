@@ -1,13 +1,13 @@
-//덧셈
+//덧셈입니다.
 const add = (a, b) => a + b;
 
-//뺄셈
+//뺄셈입니다.
 const substract = (a, b) => a - b;
 
-//곱셈
+//곱셈입니다.
 const multiply = (a, b) => a * b;
 
-//나눗셈
+//나눗셈입니다.
 const divide = (a, b) => {
   if (b === 0) return;
   return a / b;
