@@ -1,13 +1,10 @@
-function add(a, b) {
-    return a+b
-}
+const add = (a, b) => a + b;
 
-function substract(a, b) {
-    return a-b;
-}
+const substract = (a, b) => a - b;
 
-// string, number, null, undefined
-// (x: number, y: number) -> number
-function multiply (a, b) {
-    return a*b;
-}
+const multiply = (a, b) => a * b;
+
+const divide = (a, b) => {
+  if (b === 0) return;
+  return a / b;
+};
